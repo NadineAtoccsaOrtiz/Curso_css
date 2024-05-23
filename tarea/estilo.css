@@ -1,0 +1,57 @@
+.caja{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    margin-bottom:2%;
+}
+.caja_chile{
+    width:100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    border: 0.5px solid black;
+}
+article{
+    height: 130px;
+    width: 34%;
+}
+img{
+    width: 15%;
+    height: 10%;
+    
+}
+.celeste{
+    background: #29aad8;
+}
+
+.azul{
+    background-color: #032479;
+    width: 40%;
+}
+.blanco{
+    background-color: white;
+}
+.rojo{
+    background-color: red;
+}
+.rojo_chile{
+    background: red;
+    height: 100%;
+}
+.img{
+    max-width: 100px;
+    max-block-size: 13;
+    height: 60;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 400px;
+}
+.img_chile{
+    max-width: 100px;
+    max-block-size: 13;
+    height: 60;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 600px;
+}
