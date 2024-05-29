@@ -48,10 +48,11 @@ img{
     margin-right: 400px;
 }
 .img_chile{
-    max-width: 100px;
-    max-block-size: 13;
-    height: 60;
+    width: 10%;
+    block-size: 13;
+    height: 50%;
     margin-top: 20px;
-    margin-left: 100px;
-    margin-right: 600px;
+    margin-left: 1%;
+    margin-right: 600%;
+
 }
