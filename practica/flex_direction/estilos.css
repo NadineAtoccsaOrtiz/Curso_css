@@ -5,13 +5,46 @@
     padding-left: 15px;
     display: flex;
     flex-wrap: wrap;
+    gap: 10px 30px;
 }
-p{
+article{
     background: white;
     width: 20%;
     height: 100px;
     text-align: center;
     font-size: 28px;
     margin: 5px;
-    border-radius: 100px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
 }
+
+.rojo:hover{
+    background: red;
+    width: 30%;
+    box-shadow: 5px 15px 20px rgb(158, 62, 62);
+    rotate: -90deg;
+}
+.verde:hover{
+    background: green;
+    width: 30%;
+    box-shadow: 5px 15px 20px rgb(113, 176, 121);
+    rotate: 360deg;
+}
+.azul:hover{
+    background: blue;
+    width: 30%;
+    box-shadow: 5px 15px 20px rgb(63, 51, 141);
+    rotate: -180deg;
+}
+.blanco{
+    background: rgba(0, 0, 0, 0);
+    color: black;
+}
+.blanco:hover{
+    color: white;
+}
+
+/* primer gap espacio entre filas segundo gap es el espacio entre  
+cambiar cursor cursor: pointer
+rotate para que gire es en el hover y rotate en el article es para que se gire y se quede en esa posicion*/
